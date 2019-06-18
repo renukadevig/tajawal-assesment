@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 58.353 sec <<< FAILURE!
+feature(ae.tajawal.flightbooking.runner.TestRunne)  Time elapsed: 24.019 sec  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.NullPointerException
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at ae.tajawal.flightbooking.runner.TestRunne.feature(TestRunne.java:34)
+Caused by: java.lang.NullPointerException
+	at ae.tajawal.flightbooking.stepdef.Scenario1StepDef.applyFilter(Scenario1StepDef.java:87)
+	at ?.When Apply filter result to Emirates carrier in flightSearchResult screen(./features/features/files/tajawalReservation.feature:13)
+
+feature(ae.tajawal.flightbooking.runner.TestRunner)  Time elapsed: 32.911 sec  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.NullPointerException
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at ae.tajawal.flightbooking.runner.TestRunner.feature(TestRunner.java:34)
+Caused by: java.lang.NullPointerException
+	at ae.tajawal.flightbooking.stepdef.Scenario1StepDef2.applyFilter(Scenario1StepDef2.java:87)
+	at ?.When Apply filter result to Emirates carrier in flightSearchResult screen_F(./features/features/files/tajawalReservation.feature:43)
+
