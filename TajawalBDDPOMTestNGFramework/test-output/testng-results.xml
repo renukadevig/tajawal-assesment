@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BDD Test Suite" duration-ms="154468" started-at="2019-06-21T22:47:13Z" finished-at="2019-06-21T22:49:47Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ae.tajawal.flightbooking.runner.TestRunner@343f4d3d]" name="feature" class="ae.tajawal.flightbooking.runner.TestRunner"/>
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ae.tajawal.flightbooking.runner.TestRunner@31a5c39e]" name="feature" class="ae.tajawal.flightbooking.runner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="FlightBook_Firefox" duration-ms="67580" started-at="2019-06-21T22:47:13Z" finished-at="2019-06-21T22:48:21Z">
+      <class name="ae.tajawal.flightbooking.runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass(java.lang.String)[pri:0, instance:ae.tajawal.flightbooking.runner.TestRunner@343f4d3d]" name="setUpClass" is-config="true" duration-ms="249" started-at="2019-06-21T22:47:13Z" finished-at="2019-06-21T22:47:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ae.tajawal.flightbooking.runner.TestRunner@343f4d3d]" name="feature" duration-ms="67256" started-at="2019-06-21T22:47:13Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-06-21T22:48:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tajawal Flight reservation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:ae.tajawal.flightbooking.runner.TestRunner@343f4d3d]" name="tearDownClass" is-config="true" duration-ms="9" started-at="2019-06-21T22:48:21Z" finished-at="2019-06-21T22:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- ae.tajawal.flightbooking.runner.TestRunner -->
+    </test> <!-- FlightBook_Firefox -->
+    <test name="FlightBook_Chrome" duration-ms="86869" started-at="2019-06-21T22:48:21Z" finished-at="2019-06-21T22:49:47Z">
+      <class name="ae.tajawal.flightbooking.runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass(java.lang.String)[pri:0, instance:ae.tajawal.flightbooking.runner.TestRunner@31a5c39e]" name="setUpClass" is-config="true" duration-ms="26" started-at="2019-06-21T22:48:21Z" finished-at="2019-06-21T22:48:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ae.tajawal.flightbooking.runner.TestRunner@31a5c39e]" name="feature" duration-ms="86810" started-at="2019-06-21T22:48:21Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-06-21T22:49:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tajawal Flight reservation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:ae.tajawal.flightbooking.runner.TestRunner@31a5c39e]" name="tearDownClass" is-config="true" duration-ms="21" started-at="2019-06-21T22:49:47Z" finished-at="2019-06-21T22:49:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- ae.tajawal.flightbooking.runner.TestRunner -->
+    </test> <!-- FlightBook_Chrome -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>
