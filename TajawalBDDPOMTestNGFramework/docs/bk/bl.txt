@@ -1,6 +1,0 @@
-
-#Scenario: Verify the first price INTs are the lowest comparing to other prices
-#	Given Search input details should be entered in searchFlightdetails screen
-#	And Click on Search Flights button in searchFlightdetails screen
-#	When Sort the price from low to High in FlightsSearchResult
-#	Then The first price INTS displayed in listing price should be the lowest comparing to other prices
